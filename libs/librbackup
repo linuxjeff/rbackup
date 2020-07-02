@@ -1,0 +1,10 @@
+
+telainicio () {
+	dialog \
+	--stdout \
+	--title "$NOMEP" \
+	--menu "Escolha" \
+	0 0 0 \
+	a "teste1" \
+	b "teste2"
+}
